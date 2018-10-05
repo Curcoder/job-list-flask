@@ -1,0 +1,16 @@
+
+
+{% extends 'index.html' %}
+
+{% block list %}
+    <div class="listing">
+        <header>Current Listings</header>
+        <ul>
+            {% for list in data %}
+                {% for job, amount in list.items() %}
+                    <li>{{ job }}<span class="badge">{{ amount }}</span></li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

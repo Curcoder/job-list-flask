@@ -1,0 +1,56 @@
+/* line 2, ../sass/main.sass */
+body {
+  background: #ccc;
+  font-family: sans-serif;
+}
+
+/* line 7, ../sass/main.sass */
+.badge {
+  background: #1c728b;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+
+/* line 16, ../sass/main.sass */
+.listing {
+  margin: 100px;
+  display: inline-block;
+  border: 1px solid #cb6e19;
+  background: #fff;
+  padding: 2px;
+  border-radius: 10px;
+}
+/* line 23, ../sass/main.sass */
+.listing header {
+  display: block;
+  min-width: 250px;
+  font-size: 1.5rem;
+  background: #cb6e19;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+/* line 31, ../sass/main.sass */
+.listing ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../sass/main.sass */
+.listing li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+/* line 43, ../sass/main.sass */
+.listing li:nth-child(5) {
+  border-bottom: none;
+}
